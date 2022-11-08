@@ -1,0 +1,27 @@
+.compraLista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 30px;
+    font-family: sans-serif;
+    &__animacion{
+        &__gif{
+            border-radius: 10px;
+        }
+    }
+  
+    &__notificacion{
+        color: rgb(152, 140, 140);
+    }
+    &__boton{
+        &__div{
+            padding: 10px 60px 10px 60px ;
+            background-color: rgb(236, 30, 64);
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    }
+}

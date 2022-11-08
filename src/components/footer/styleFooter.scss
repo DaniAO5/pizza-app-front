@@ -1,0 +1,42 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70px;
+    background-color: transparent;
+    font-family: sans-serif;
+    color: rgb(138, 135, 135);
+    margin-top: 40px;
+    gap: 15px;
+    
+   
+    &_home{
+        width: 180px;
+        height: 70px;
+        background-color: rgb(241, 235, 235);
+        border-radius: 0 30px 0 0;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        cursor: pointer;
+
+    }
+    &_car{
+        width: 80px;
+        height: 80px;
+        background-color:rgb(241, 235, 235);
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    &_search{
+        width: 180px;
+        height: 70px;
+        background-color: rgb(241, 235, 235);
+        border-radius: 30px 0 0 0;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 30px;
+        cursor: pointer;
+    }
+}

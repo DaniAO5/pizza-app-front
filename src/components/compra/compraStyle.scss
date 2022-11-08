@@ -1,0 +1,154 @@
+.paginaCompras{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+
+    &__devolver{
+        display: flex;
+        cursor: pointer;
+        &__flecha{
+            color: red;
+            font-size: 30px;
+        }
+        &__letras{
+            font-size: 20px;
+            margin-top: 4px;
+        }
+    }
+    &__producto{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-left: 41%;
+        background-color: rgb(171, 165, 165);
+        border-radius: 10px;
+        width: 250px;
+        height: 100px;
+        gap: 20px;
+        padding: 10px;
+        &__pizza{
+            width: 30px;
+            height: 30px;
+            &__img{
+            width: 60px;
+            height: 80px;
+            border-radius: 13px;
+            }
+        }
+        &__info{
+            margin-left: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &__nombre{
+                font-family: sans-serif;
+            }
+            &__cantidad{
+                font-family: sans-serif;
+            }
+        }
+        &__precio{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-size: 13px;
+        }
+    }
+    &__informacion{
+        &__letra{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    }
+    &__comprasFormulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        &__nombre{
+            display: flex;
+            flex-direction: column;
+            &__input{
+                padding: 10px;
+                background-color: rgb(216, 213, 213);
+                border: none;
+                border-radius: 6px;
+            }
+        }
+        &__tarjeta{
+            display: flex;
+            flex-direction: column;
+            &__input{
+                padding: 10px;
+                background-color: rgb(216, 213, 213);
+                border: none;
+                border-radius: 6px;
+            }
+        }
+        &__div{
+            display: flex;
+            gap: 10px;
+            &__FV{
+                display: flex;
+                flex-direction: column;
+                &__input{
+                    padding: 10px;
+                background-color: rgb(216, 213, 213);
+                border: none;
+                border-radius: 6px;
+                }
+            }
+            &__cvv{
+                display: flex;
+                flex-direction: column;
+                &__input{
+                    padding: 10px;
+                background-color: rgb(216, 213, 213);
+                border: none;
+                border-radius: 6px;
+                }
+            }
+       }
+        &__dirreccion{
+            display: flex;
+            flex-direction: column;
+            &__input{
+                padding: 10px;
+                background-color: rgb(216, 213, 213);
+                border: none;
+                border-radius: 6px;
+            }
+        }
+        &__boton{
+            background-color: rgb(236, 30, 64);
+            border: none;
+            padding: 10px 60px 10px 60px;
+            color: white;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .paginaCompras__producto{
+        margin-left: 39%;
+    }
+
+}
+@media screen and (min-width: 500px) and (max-width: 768px){
+    .paginaCompras__producto{
+        margin-left: 30%;
+    }
+
+}
+@media screen and (min-width: 365px) and (max-width: 500px){
+    .paginaCompras__producto{
+        margin-left: 23%;
+    }
+
+}

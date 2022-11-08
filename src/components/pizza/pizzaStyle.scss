@@ -1,0 +1,137 @@
+.todas1{
+    display: flex;
+    flex-direction: column;
+    
+    &__arriba{
+        display: flex;
+        height: 100%;
+        width: 40%;
+        background-repeat: no-repeat;
+        margin-left: 360px;
+        border-radius: 20px;
+
+    
+        &__card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,0.2945553221288515) 0%, rgba(0,0,0,1) 86%);
+            margin-right: 99px;
+            border-radius: 20px;
+            &__img{
+                width: 550px;
+                height: 400px;
+            }
+            
+        }
+    }
+    &__abajo{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 40%;
+        margin-left: 360px;
+        border-radius: 20px;
+        background-color: rgb(87, 86, 86);
+        gap: 25px;
+        margin-top: -30px;
+        z-index: -10;
+        
+        &__nombre{
+            color: white;
+            font-size: 20px;
+            margin-left: 15px;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium';
+            font-size: 20px;
+        }
+        &__botones{
+            display: flex;
+            margin-left: 15px;
+            &__precio{
+                color: white;
+                margin-right: 15px;
+                font-size: 15px;
+                font-family: sans-serif;
+                    
+                &__contenedor{
+                    background-color: rgb(236, 30, 64);
+                    padding: 15px 25px 15px 25px;
+                    border-radius: 20px;
+                    font-family: sans-serif;
+                }
+            }
+            &__resenas{
+                color: white;
+                margin-right: 15px;
+                font-size: 15px;
+                font-family: sans-serif;
+                &__contenedor{
+                    background-color: rgb(236, 136, 30);
+                    padding: 15px 25px 15px 25px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        &__descripcion{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-family: 'Franklin Gothic Medium';
+            
+            
+            &__letra{
+                color: white;
+                margin-left: 15px;
+                font-size: 20px;
+            }
+            &__descripcion{
+                color: rgb(185, 178, 178);
+                margin-left: 15px;
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+        }
+        &__resena{
+            display: flex;
+            margin-left: 15px;
+            gap: 15px;
+            font-family: sans-serif;
+            font-size: 15px;
+            &__imagen{
+                &__img{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+            }
+            &__texto{
+                display: flex;
+                flex-direction: column;
+                align-items:flex-start;
+                gap: 5px;
+                font-family: sans-serif;
+                font-size: 15px;
+                &__nombre{
+                    color: white;
+                }
+                &__resena{
+                    color: white;
+                }
+            }
+            &__dias{
+                color: rgb(186, 173, 173);
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 365px) and (max-width: 800px){
+    .todas1{
+        margin-left: -250px;
+    }
+}

@@ -1,0 +1,76 @@
+.footerPizza{
+        display: flex;
+        height: 50%;
+        width: 40%;
+        border-radius: 20px;
+        background-color: rgb(236, 30, 64);
+        margin-top: -3px;
+        margin-left: 360px;
+        height: 80px;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-around;
+        font-family: sans-serif;
+        &__contador{
+            display: flex;
+            margin-left: 15px;
+            gap: 10px;
+            height: 50px;
+            gap: 30px;
+            &__resta{
+                cursor: pointer;
+                color: white;
+                font-size: 35px;
+                
+            }
+            &__numero{
+                color: white;
+                font-size: 35px;
+            }
+            &__suma{
+                cursor: pointer;
+                color: white;
+                font-size: 35px;
+            }
+        }
+        &__papelera{
+            margin-left: 15px;
+            cursor: pointer;
+            padding: 7px 10px 7px 17px;
+            border: 1px solid white;
+            border-radius: 10px;
+            &__img{
+                height: 30px;
+                width: 30px;
+                
+            }
+            &__numero{
+                margin-bottom: -10px;
+                margin-left: 30px;
+                background-color: white;
+                border-radius: 30px;
+                padding: 1px 2px 1px 2px ;
+            }
+        }
+        &__papelera:hover{
+            background-color: white;
+            border: 1px solid rgb(56, 56, 198);
+        }
+        
+        &__pagar{
+            color: white;
+            padding: 13px 25px 13px 25px;
+            border-radius: 10px;
+            border: 1px solid white;
+            cursor: pointer;
+            &__letra{
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+        }
+        &__pagar:hover{
+            background-color: white;
+            border: 1px solid rgb(56, 56, 198);
+            color: gray;
+        }
+}
